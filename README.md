@@ -1,2 +1,2 @@
 # cheza-spin
-An application used.
+A web-app game application.
