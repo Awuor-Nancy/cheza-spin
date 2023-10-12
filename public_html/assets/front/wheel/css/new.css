@@ -1,0 +1,686 @@
+.circles {
+	width: 300px;
+	height: 300px;
+	position: relative;
+	margin: 30vh auto;
+}
+.circles > * {
+	background-color: transparent;
+	box-sizing: border-box;
+	border: 5px solid #ee0a53;
+	border-top: 0 solid transparent;
+	border-left: 0 solid transparent;
+	border-radius: 50%;
+	position: absolute;
+	animation: spin 4s infinite linear alternate;
+}
+
+.circle1 {
+	width: 300px;
+	height: 300px;
+	animation-delay: -5s;
+	border-color: #ee0a53;
+}
+.circle2 {
+	width: 280px;
+	height: 280px;
+	top: 10px;
+	left: 10px;
+	animation-delay: -4.9s;
+	border-color: #ee0a53;
+}
+.circle3 {
+	width: 260px;
+	height: 260px;
+	top: 20px;
+	left: 20px;
+	animation-delay: -4.8s;
+	border-color: #ee0a53;
+}
+.circle4 {
+	width: 240px;
+	height: 240px;
+	top: 30px;
+	left: 30px;
+	animation-delay: -4.7s;
+	border-color: #ee0a53;
+}
+.circle5 {
+	width: 220px;
+	height: 220px;
+	top: 40px;
+	left: 40px;
+	animation-delay: -4.6s;
+	border-color: #ee0a53;
+}
+.circle6 {
+	width: 200px;
+	height: 200px;
+	top: 50px;
+	left: 50px;
+	animation-delay: -4.5s;
+	border-color: #ee0a53;
+}
+.circle7 {
+	width: 180px;
+	height: 180px;
+	top: 60px;
+	left: 60px;
+	animation-delay: -4.4s;
+	border-color: #ee0a53;
+}
+.circle8 {
+	width: 160px;
+	height: 160px;
+	top: 70px;
+	left: 70px;
+	animation-delay: -4.3s;
+	border-color: #ee0a53;
+}
+.circle9 {
+	width: 140px;
+	height: 140px;
+	top: 80px;
+	left: 80px;
+	animation-delay: -4.2s;
+	border-color: #ee0a53;
+}
+.circle10 {
+	width: 120px;
+	height: 120px;
+	top: 90px;
+	left: 90px;
+	animation-delay: -4.1s;
+	border-color: #ee0a53;
+}
+.circle11 {
+	width: 100px;
+	height: 100px;
+	top: 100px;
+	left: 100px;
+	animation-delay: -4s;
+	border-color: #ee0a53;
+}
+.circle12 {
+	width: 80px;
+	height: 80px;
+	top: 110px;
+	left: 110px;
+	animation-delay: -3.9s;
+	border-color: #ee0a53;
+}
+.circle13 {
+	width: 60px;
+	height: 60px;
+	top: 120px;
+	left: 120px;
+	animation-delay: -3.8s;
+	border-color: #ee0a53;
+}
+.circle14 {
+	width: 40px;
+	height: 40px;
+	top: 130px;
+	left: 130px;
+	animation-delay: -3.7s;
+	border-color: #ee0a53;
+}
+.circle15 {
+	width: 20px;
+	height: 20px;
+	top: 140px;
+	left: 140px;
+	animation-delay: -3.6s;
+	border-color: #ee0a53;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.header-nav .navbar-brand img {
+		width: 210px;
+	}
+	.casino-btn,
+	.horizontalButtonGroup {
+		margin-top: 50px;
+	}
+	.spin_banner {
+		margin-top: 20px;
+		height: 100px;
+		text-align: right;
+		display: flex;
+		justify-content: right;
+	}
+	.wheel-horizontal-spin-button,
+	.deposit-button {
+		position: relative;
+		display: inline-block;
+		font-size: 24px;
+		vertical-align: top;
+		text-align: center;
+		letter-spacing: 1px;
+		line-height: 24px;
+		color: #fefefe;
+		font-weight: 400;
+		font-family: "Anton";
+		padding: 13px 15px;
+		/* border-radius: 10px; */
+		text-transform: capitalize;
+		width: 130px;
+		-webkit-transition: all ease 0.5s;
+		-moz-transition: all ease 0.5s;
+		-ms-transition: all ease 0.5s;
+		-o-transition: all ease 0.5s;
+		transition: all ease 0.5s;
+		/* box-shadow: 0px 0px 2px 2px #ffaa33; */
+		/* text-shadow: 5px 4px 0px #00ef0f; */
+		/* background: linear-gradient(to bottom, #ffd679 30%, #f7ac03 70%);
+		filter: drop-shadow(0 0px 20px #00ef0f); */
+	}
+	.player {
+		background: url(../../../../new-tpl/imgs/phoneman.png);
+		background-position-x: 0%;
+		background-position-y: 0%;
+		background-repeat: repeat;
+		background-size: auto;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 55vh;
+		position: relative;
+	}
+	.cheza_banner {
+		background: url(../../../../assets/images/chezaspin-40.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 350px;
+		position: relative;
+		margin-bottom: 30px;
+		margin-top: 10px;
+	}
+	.title2 {
+		font-size: 87px;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.superWheel {
+		width: 400px;
+	}
+	.header-nav .navbar-brand img {
+		width: 110px;
+	}
+	.wheel-horizontal-spin-button {
+		width: 100px;
+	}
+	.casino-btn,
+	.horizontalButtonGroup {
+		margin-top: 0px;
+	}
+	.spin_banner {
+		margin-top: 0px;
+		height: auto;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+	}
+	.wheel-horizontal-spin-button,
+	.deposit-button {
+		position: relative;
+		display: inline-block;
+		font-size: 21px;
+		vertical-align: top;
+		text-align: center;
+		letter-spacing: 1px;
+		line-height: 1px;
+		color: #fefefe;
+		font-weight: 400;
+		font-family: "Anton";
+		padding: 13px 15px;
+		border-radius: 35px;
+		text-transform: capitalize;
+		width: 170px;
+		-webkit-transition: all ease 0.5s;
+		-moz-transition: all ease 0.5s;
+		-ms-transition: all ease 0.5s;
+		-o-transition: all ease 0.5s;
+		transition: all ease 0.5s;
+		/* box-shadow: 0px 0px 2px 2px rgba(4, 247, 31, 0.8); */
+		/* text-shadow: 5px 4px 0px #00ef0f; */
+		background: linear-gradient(to bottom, #7dff79 30%, #4ff703 70%);
+		filter: drop-shadow(0 0px 20px rgba(101, 40, 193, 0.5));
+	}
+	.player {
+		height: 5vh;
+		position: relative;
+	}
+	.cheza_banner {
+		background: url(../../../../images/chezaspin-40.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 550px;
+		position: relative;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+
+	.title2 {
+		font-size: 87px;
+	}
+}
+@media only screen and (max-width: 900px) {
+	.superWheel {
+		width: 370px;
+	}
+	.header-nav .navbar-brand img {
+		width: 110px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.superWheel {
+		width: 350px;
+	}
+	.header-nav .navbar-brand img {
+		width: 110px;
+	}
+	.wheel-horizontal-spin-button {
+		width: 170px;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.superWheel {
+		width: 310px;
+	}
+	.header-nav .navbar-brand img {
+		width: 110px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.superWheel {
+		width: 250px;
+	}
+
+	.header-nav .navbar-brand img {
+		width: 110px;
+	}
+
+	.title2 {
+		font-size: 47px;
+	}
+}
+#banner .container {
+	margin-top: 90px;
+	padding-bottom: 30px;
+}
+#counter .container {
+	padding: 20px 0;
+}
+.title2 {
+	letter-spacing: -1px;
+	line-height: 110px;
+	width: 570px;
+	font-weight: 400;
+	font-family: "Anton";
+	background: -webkit-linear-gradient(#583af0 46%, #d51c1b 54%, #e14e4e);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	z-index: 99;
+	line-height: 90px;
+	width: auto;
+}
+.input_error {
+	border: solid 2px #ff0000;
+}
+.ui-button-active {
+	border-color: #404020;
+	background: #808060;
+	/* Raise the button so its border is visible. */
+	position: relative;
+	z-index: 999;
+}
+#head-mobile {
+	padding: 12px;
+}
+#head-mobile a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: rgb(0, 0, 0);
+}
+
+.badge-warning {
+	color: #ffffff;
+	background-color: #334137;
+}
+
+.green-bg {
+	background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
+}
+
+.yellow-btn {
+	background: linear-gradient(to bottom, #d51c1b 0%, #db6b6b 100%);
+}
+
+.green__btn {
+	background: linear-gradient(to bottom, #02cf70 0%, #02cf70 100%);
+}
+
+.item.active {
+	background: #d51c1b;
+}
+
+@media only screen and (max-width: 480px) {
+	.spinn__area {
+		margin-bottom: 5px !important;
+		padding-bottom: 25px !important;
+	}
+
+	#banner .container {
+		margin-top: 50px;
+		padding-bottom: 5px;
+	}
+
+	.payment_contents h4 {
+		font: 27px/35px Lato;
+		font-weight: 700;
+		color: #fff;
+		text-align: center;
+		padding: 10px;
+	}
+
+	.mpesa__image {
+		text-align: center;
+	}
+
+	.register__button {
+		padding-bottom: 10px;
+	}
+}
+
+.spinn__area {
+	background: #190041 !important;
+	color: #fff !important;
+	border: 2px solid #fff !important;
+}
+
+.spinn__area--title {
+	color: #fff !important;
+	font-weight: 800 !important;
+	font-size: 25px !important;
+}
+
+.spinn__area--title2 {
+	color: #fff !important;
+	font-weight: 400 !important;
+	font-size: 18px !important;
+}
+
+.hr__separator {
+	border-top: 1px solid #fff !important;
+	margin: 20px 0 !important;
+}
+
+.facility .icon {
+	width: 160px !important;
+	height: 160px !important;
+	background: #593af0 !important;
+	border-radius: 50% !important;
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	margin-bottom: 40px !important;
+}
+
+.reviews__title {
+	font: 37px/45px Lato;
+	font-weight: 900;
+	letter-spacing: 0;
+	color: #162a3e;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.facility .contents {
+	font: 30px/36px Lato;
+	font-weight: 300;
+	letter-spacing: 0;
+	color: #162a3e;
+}
+
+.bottom__footer--line {
+	border-top: 1px solid #fff;
+	margin: 20px 0;
+}
+
+.payment_contents h4 {
+	font: 37px/45px Lato;
+	font-weight: 900;
+	color: #fff;
+}
+
+.footer__logo {
+	padding: 20px;
+	border-radius: 10px !important;
+}
+
+.wallet__contents {
+	font: 20px/26px Lato;
+	font-weight: 500 !important;
+	letter-spacing: 0;
+	color: #ebebeb;
+	background: #16be45;
+	padding: 10px 20px !important;
+	border-radius: 5px !important;
+}
+
+footer a {
+	color: #fff !important;
+	font: 18px/30px Lato;
+}
+
+.full_nav .nav > li {
+	margin: 0 15px !important;
+	padding: 10px 0 !important;
+}
+
+button.close:not(.normal) {
+	background-color: #fff;
+	border: 0;
+	position: absolute;
+	right: 0;
+	opacity: 1;
+	padding: 5px 12px;
+	color: #593af0;
+	z-index: 4;
+}
+
+.review .icon {
+	width: 75px;
+	height: 75px;
+	background: #ded8fc;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 25px;
+}
+
+#loginModal .modal-body,
+#registerModal .modal-body,
+#withdrawalModal .modal-body,
+#depositModal .modal-body,
+#forgotPasswordModal .modal-body,
+#newPasswordModal .modal-body,
+#regVerifyModal .modal-body {
+	padding: 60px;
+	font: 15px/18px Roboto Condensed !important;
+	font-weight: 300;
+	color: #fff;
+}
+
+.modal-title {
+	font: 40px/46px Lato;
+	font-weight: 700;
+	letter-spacing: 0;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.review p {
+	font: 18px/30px Roboto Condensed;
+	color: #747474;
+}
+
+.reviews h5 {
+	font: 37px/45px Lato;
+	font-weight: 900;
+	letter-spacing: 0;
+	color: #162a3e;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.facilities__title {
+	font: 37px/45px Lato;
+	font-weight: 900;
+	letter-spacing: 0;
+	color: #162a3e;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.scroll-prompt {
+	position: absolute;
+	z-index: 998;
+	/* bottom: -80px; */
+	left: 73%;
+	margin-left: -80px;
+
+	.scroll-prompt-arrow-container {
+		position: absolute;
+		top: 0;
+		left: 80%;
+		margin-left: -18px;
+		animation-name: bounce;
+		animation-duration: 1.5s;
+		animation-iteration-count: infinite;
+	}
+	.scroll-prompt-arrow {
+		animation-name: opacity;
+		animation-duration: 1.5s;
+		animation-iteration-count: infinite;
+	}
+	.scroll-prompt-arrow:last-child {
+		animation-direction: reverse;
+		margin-top: -6px;
+	}
+	.scroll-prompt-arrow > div {
+		width: 36px;
+		height: 36px;
+		border-right: 8px solid #bebebe;
+		border-bottom: 8px solid #bebebe;
+		transform: rotate(45deg) translateZ(1px);
+	}
+}
+
+@keyframes opacity {
+	0% {
+		opacity: 0;
+	}
+
+	10% {
+		opacity: 0.1;
+	}
+
+	20% {
+		opacity: 0.2;
+	}
+
+	30% {
+		opacity: 0.3;
+	}
+
+	40% {
+		opacity: 0.4;
+	}
+
+	50% {
+		opacity: 0.5;
+	}
+
+	60% {
+		opacity: 0.6;
+	}
+
+	70% {
+		opacity: 0.7;
+	}
+
+	80% {
+		opacity: 0.8;
+	}
+
+	90% {
+		opacity: 0.9;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes bounce {
+	0% {
+		transform: translateY(0);
+	}
+
+	10% {
+		transform: translateY(3px);
+	}
+
+	20% {
+		transform: translateY(6px);
+	}
+
+	30% {
+		transform: translateY(9px);
+	}
+
+	40% {
+		transform: translateY(12px);
+	}
+
+	50% {
+		transform: translateY(15px);
+	}
+
+	60% {
+		transform: translateY(18px);
+	}
+
+	70% {
+		transform: translateY(21px);
+	}
+
+	80% {
+		transform: translateY(24px);
+	}
+
+	90% {
+		transform: translateY(27px);
+	}
+
+	100% {
+		transform: translateY(30px);
+	}
+}

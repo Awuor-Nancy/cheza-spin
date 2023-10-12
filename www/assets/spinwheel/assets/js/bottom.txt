@@ -1,0 +1,12 @@
+	
+	var tick = new Audio('assets/media/tick.mp3');
+	$('.wheel').superWheel('onStep',function(results){
+		
+		if (typeof tick.currentTime !== 'undefined')
+			tick.currentTime = 0;
+        
+		tick.play();
+		
+	});
+	
+});

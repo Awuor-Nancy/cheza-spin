@@ -1,0 +1,235 @@
+{
+    "appconfiguration": {
+        "app_name": "Mighty Web",
+        "url": "https:\/\/codecanyon.net\/user\/meetmighty\/portfolio",
+        "appLanuguage": "en",
+        "isJavascriptEnable": "true",
+        "isSplashScreen": "true",
+        "isZoomFunctionality": "false",
+        "navigationStyle": "sidedrawer",
+        "header_style": "left"
+    },
+    "admob": {
+        "admobBannerID": "",
+        "admobIntentialID": "",
+        "admobBannerIDIOS": "cxsdddddddd",
+        "admobIntentialIDIOS": "sdfxc"
+    },
+    "progressbar": {
+        "loaderStyle": "FadingCircle"
+    },
+    "theme": {
+        "themeStyle": "Theme6",
+        "customColor": null,
+        "gradientColor1": null,
+        "gradientColor2": null
+    },
+    "about": {
+        "whatsAppNumber": "98796543210",
+        "instagramUrl": "https:\/\/www.instagram.com\/",
+        "twitterUrl": "https:\/\/twitter.com\/login",
+        "facebookUrl": "https:\/\/www.facebook.com\/",
+        "callNumber": "9876543210",
+        "snapchat": "https:\/\/www.snapchat.com\/",
+        "skype": "https:\/\/www.skype.com\/en\/",
+        "messenger": "https:\/\/www.messenger.com\/",
+        "youtube": "https:\/\/www.youtube.com\/",
+        "isShowAbout": "true"
+    },
+    "onesignal_configuration": {
+        "app_id": "xxxxx",
+        "rest_api_key": "xxxxx"
+    },
+    "menu_style": [
+        {
+            "id": "7",
+            "title": "About",
+            "type": "sidedrawer",
+            "image": "https:\/\/meetmighty.com\/mightywebbuilder\/upload\/menu\/1618655222-icon_4.png",
+            "url": "https:\/\/themeforest.net\/user\/meetmighty",
+            "status": "1"
+        }
+    ],
+    "header_icon": {
+        "lefticon": [
+            {
+                "id": "1",
+                "title": "Back Button 1",
+                "value": "ic_back1",
+                "image": "ic_back1.png",
+                "type": "event",
+                "url": null,
+                "status": "0",
+                "created_at": "2021-04-09 05:19:17",
+                "updated_at": "2021-04-09 05:19:17"
+            },
+            {
+                "id": "2",
+                "title": "Back Button 2",
+                "value": "ic_back2",
+                "image": "ic_back2.png",
+                "type": "event",
+                "url": null,
+                "status": "1",
+                "created_at": "2021-04-09 05:19:27",
+                "updated_at": "2021-04-09 05:19:27"
+            },
+            {
+                "id": "3",
+                "title": "Home",
+                "value": "ic_home",
+                "image": "ic_home.png",
+                "type": "event",
+                "url": null,
+                "status": "0",
+                "created_at": "2021-04-09 05:20:00",
+                "updated_at": "2021-04-09 05:20:00"
+            },
+            {
+                "id": "4",
+                "title": "Profile",
+                "value": "ic_profile",
+                "image": "ic_profile.png",
+                "type": "url",
+                "url": "https:\/\/www.google.com\/",
+                "status": "0",
+                "created_at": "2021-04-09 05:20:29",
+                "updated_at": "2021-04-09 05:20:29"
+            },
+            {
+                "id": "5",
+                "title": "Close",
+                "value": "ic_close",
+                "image": "ic_close.png",
+                "type": "event",
+                "url": null,
+                "status": "0",
+                "created_at": "2021-04-09 05:20:30",
+                "updated_at": "2021-04-09 05:20:30"
+            },
+            {
+                "id": "6",
+                "title": "Search",
+                "value": "ic_search",
+                "image": "ic_search.png",
+                "type": "url",
+                "url": "https:\/\/www.google.com\/",
+                "status": "0",
+                "created_at": "2021-04-09 05:20:36",
+                "updated_at": "2021-04-09 05:20:36"
+            },
+            {
+                "id": "7",
+                "title": "Add",
+                "value": "ic_add",
+                "image": "ic_add.png",
+                "type": "url",
+                "url": "https:\/\/www.google.com\/",
+                "status": "0",
+                "created_at": "2021-04-09 05:20:51",
+                "updated_at": "2021-04-09 05:20:51"
+            }
+        ],
+        "righticon": [
+            {
+                "id": "1",
+                "title": "Reload",
+                "value": "ic_reload",
+                "image": "ic_reload.png",
+                "type": "event",
+                "url": null,
+                "status": "1",
+                "created_at": "2020-06-07 21:28:42",
+                "updated_at": "2020-06-07 21:28:42"
+            },
+            {
+                "id": "2",
+                "title": "Share",
+                "value": "ic_share",
+                "image": "ic_share.png",
+                "type": "event",
+                "url": null,
+                "status": "0",
+                "created_at": "2020-06-07 21:46:42",
+                "updated_at": "2020-06-07 21:46:42"
+            },
+            {
+                "id": "3",
+                "title": "Search",
+                "value": "ic_search",
+                "image": "ic_search.png",
+                "type": "url",
+                "url": "https:\/\/www.google.com\/",
+                "status": "1",
+                "created_at": "2020-06-07 21:48:16",
+                "updated_at": "2020-06-07 21:48:16"
+            },
+            {
+                "id": "4",
+                "title": "Settings",
+                "value": "ic_settings",
+                "image": "ic_settings.png",
+                "type": "url",
+                "url": "https:\/\/www.google.com\/",
+                "status": "0",
+                "created_at": "2021-04-09 10:33:15",
+                "updated_at": "2021-04-09 10:33:17"
+            },
+            {
+                "id": "5",
+                "title": "Close",
+                "value": "ic_close",
+                "image": "ic_close.png",
+                "type": "event",
+                "url": null,
+                "status": "0",
+                "created_at": "2021-04-09 05:10:36",
+                "updated_at": "2021-04-09 05:10:36"
+            },
+            {
+                "id": "6",
+                "title": "Cart",
+                "value": "ic_cart",
+                "image": "ic_cart.png",
+                "type": "url",
+                "url": "https:\/\/www.myntra.com\/",
+                "status": "0",
+                "created_at": "2021-04-09 05:11:40",
+                "updated_at": "2021-04-09 05:11:40"
+            },
+            {
+                "id": "7",
+                "title": "Profile",
+                "value": "ic_profile",
+                "image": "ic_profile.png",
+                "type": "url",
+                "url": "https:\/\/www.google.com\/",
+                "status": "0",
+                "created_at": "2021-04-09 05:11:54",
+                "updated_at": "2021-04-09 05:11:54"
+            },
+            {
+                "id": "8",
+                "title": "Message",
+                "value": "ic_message",
+                "image": "ic_message.png",
+                "type": "url",
+                "url": "https:\/\/www.google.com\/",
+                "status": "0",
+                "created_at": "2021-04-09 05:12:47",
+                "updated_at": "2021-04-09 05:12:47"
+            },
+            {
+                "id": "9",
+                "title": "Notification",
+                "value": "ic_notification",
+                "image": "ic_notification.png",
+                "type": "url",
+                "url": "https:\/\/www.google.com\/",
+                "status": "0",
+                "created_at": "2021-04-09 05:13:11",
+                "updated_at": "2021-04-09 05:13:11"
+            }
+        ]
+    }
+}
